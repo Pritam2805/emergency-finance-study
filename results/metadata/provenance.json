@@ -1,0 +1,42 @@
+{
+  "source": {
+    "catalog_url": "https://microdata.worldbank.org/catalog/7916",
+    "release": "IND_2024_FINDEX_v02_M",
+    "survey_year": 2024,
+    "input_filename": "Findex_Microdata_2025_updateIndia.dta",
+    "input_sha256": "0e5275bfc374ecc8328a41e8850416e051336b0aa071cc457660af1a4c93df93"
+  },
+  "sample": {
+    "public_use_n": 3000,
+    "selected_n": 1077,
+    "classified_n": 1073,
+    "primary_model_n": 1073,
+    "workforce_model_n": 1073
+  },
+  "definitions": {
+    "income": "Bottom two within-India household-income quintiles; adults age 15+",
+    "account0": "No / don't know / refused combined",
+    "severe": "Unable or very difficult",
+    "broader": "Unable, very difficult, or somewhat difficult",
+    "emergency_question": "5% of local-currency GNI per capita within 30 days"
+  },
+  "inference": {
+    "logit": "Original-weight independent-respondent HC0 sandwich; conditional delta normal interval",
+    "lpm": "statsmodels WLS HC3, normal interval; predictions not clipped",
+    "standardization": "Observed weighted covariate distribution held fixed; account 1 minus account 0",
+    "fully_design_adjusted_survey_inference": false
+  },
+  "lpm_diagnostics": {
+    "minimum": 0.5360072036318426,
+    "maximum": 1.0196739379265118,
+    "below_zero": 0,
+    "above_one": 2
+  },
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  }
+}
