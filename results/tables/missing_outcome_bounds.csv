@@ -1,0 +1,4 @@
+quantity,lower,upper,units,n,n_unknown,total_weight,known_severe_weight,unknown_weight,scope
+account0_severe_prevalence,87.65325957311974,87.65325957311974,percent,135,0,164.93305485248197,144.56919869172197,0.0,"Unadjusted descriptive classification bounds; not confidence intervals, adjusted bounds, or causal effects"
+account1_severe_prevalence,79.94276716808419,80.28453099358313,percent,942,4,1035.4342267388597,827.7547730604996,3.538739623828008,"Unadjusted descriptive classification bounds; not confidence intervals, adjusted bounds, or causal effects"
+account1_minus_account0_gap,-7.710492405035563,-7.36872857953662,percentage_points,1077,4,,,,"Unadjusted descriptive classification bounds; not confidence intervals, adjusted bounds, or causal effects"

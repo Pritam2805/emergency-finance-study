@@ -1,0 +1,3 @@
+account_status,account_label,selected_n,classified_n,unknown_outcome_n,primary_model_n,severe_n,classified_weight_sum,unweighted_severe_percent,classified_weight_only_kish_n,weighted_severe_percent,weighted_average_age
+0,No reported account,135,135,0,135,117.0,164.93305485248197,86.66666666666667,105.78470138140587,87.65325957311974,31.684594763331418
+1,Reported account,942,938,4,938,747.0,1031.8954871150315,79.63752665245202,677.0302843119265,80.21691958114212,38.42175376094596

@@ -1,0 +1,14 @@
+Characteristic,Unit,No reported account,Reported account
+Respondents,respondents,135.0,938.0
+Age,mean_years,31.684594763331418,38.42175376094596
+Gender: female,percent,53.74106077639197,53.765864607266
+Gender: male,percent,46.25893922360801,46.234135392734
+Education: primary or less,percent,85.5193246510764,80.52532106568843
+Education: secondary,percent,11.656638387418571,16.392629441219064
+Education: tertiary or more,percent,2.8240369615049965,3.0820494930924935
+Income quintile: 1,percent,56.97699454714795,48.90388127030095
+Income quintile: 2,percent,43.02300545285202,51.09611872969906
+Residence: rural,percent,73.3494710572159,80.20294427828838
+Residence: urban,percent,26.650528942784085,19.797055721711622
+Workforce: in (additional check),percent,48.04310999217114,57.55347521469011
+Workforce: out (additional check),percent,51.95689000782884,42.44652478530989
