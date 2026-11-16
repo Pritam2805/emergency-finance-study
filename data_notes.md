@@ -21,7 +21,7 @@ Download the file from the [microdata access page](https://microdata.worldbank.o
 
 The [statsmodels GLM](https://www.statsmodels.org/stable/generated/statsmodels.genmod.generalized_linear_model.GLM.html) fits a binomial model with a logit link. Each supplied survey weight multiplies its respondent's Bernoulli log-likelihood contribution once. The `freq_weights` argument supplies this weighted objective; its default frequency-weight covariance is not used for the reported logit intervals.
 
-For fitted probability `p_i`, design row `x_i`, response `y_i`, and original weight `w_i`, the notebook calculates the independent-respondent HC0 sandwich:
+For fitted probability `p_i`, column covariate vector `x_i`, response `y_i`, and original weight `w_i`, the notebook calculates the independent-respondent HC0 sandwich:
 
 ```text
 B = sum_i w_i p_i (1 - p_i) x_i x_i'
